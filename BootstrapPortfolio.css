@@ -1,0 +1,104 @@
+body{
+  background-color: #fffffb !important;
+}
+
+/* overriding navbar color */
+.navbar{
+  background-color: #87A2DE;
+  box-shadow: 0 2px 4px 0 rgba(91, 102, 127, .9);
+}
+
+/* nav-brand styling */
+.overrides .nav-brand{
+  color: #ececec !important;
+  padding: 15px !important;
+  font-family: 'CantoraOneRegular'!important;
+   font-weight: Bolder !important;
+   font-style: normal !important;
+   float: left !important;
+   width:50px !important;
+   text-transform: capitalize !important;
+}
+
+
+/* h1 one heading styling */
+.First-Header{
+  padding-top: 95px;
+  padding-bottom: 40px;
+  padding-left: 30px;
+  border-top: 0px;
+   background-color: #8996B1 !important;
+  color: #ffffff;
+  padding-left: 68px;
+
+
+}
+
+/* h2 about me */
+p #info{
+  padding-left: 9px;
+}
+ #About{
+  text-align: center;
+  text-decoration: underline;
+  padding: 8px;
+}
+
+.myInfo{
+  color: #42627b;
+   padding: 9px;
+   background-color: white;
+}
+#intro{
+  padding-left:15px;
+  font-size: 22px;
+}
+
+
+/* My technical skills */
+.tech-skills{
+  text-align: center;
+  font-size: 1.09em;
+  color: #fff;
+  background-color: #8996b1;
+  padding: 9px;
+}
+/* Technical skills styling */
+#first-skill{
+  border: 2px solid #4b6579;
+  border-radius: 50%;
+  height: 150px;
+  width: 1500px;
+}
+
+/* contacts */
+#Contact{
+  text-align: center;
+  text-decoration: underline;
+  color:#42627b;
+  text-decoration-style: solid #42627b;
+  padding-bottom: 10px;
+}
+.contract-form{
+  padding-bottom: 22px;
+}
+
+/* ways of accessing me */
+.footer {
+  background-color: #4b6579;
+  color: #ffffff;
+  padding-top: 30px;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+.mail{
+  text-decoration: none;
+  color: #ffffff;
+}
+.mail:hover{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* font awesome icon styling */
