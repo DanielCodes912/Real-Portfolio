@@ -53,7 +53,56 @@ p #info{
   padding-left:15px;
   font-size: 22px;
 }
-
+a.first-skill:hover{
+  text-decoration: none;
+  color: #8996b1 !important;
+  background-color: #fff !important;
+}
+a.first-skill{
+  text-decoration: none;
+  background-color: #8996b1 !important;
+  color: #fff !important;
+}
+a.second-skill{
+  text-decoration: none;
+  color: #fff !important;
+}
+a.second-skill:hover{
+  background-color: #fff !important;
+  color: #8996b1 !important;
+}
+a.third-skill{
+  text-decoration: none;
+  color: #fff !important;
+}
+a.third-skill:hover{
+  background-color: #fff !important;
+  color: #8996b1 !important;
+}
+a.fourth-skill{
+  text-decoration: none;
+  color: #fff !important;
+}
+a.fourth-skill:hover{
+  background-color: #fff !important;
+  color: #8996b1 !important;
+}
+a.fifth-skill{
+  text-decoration: none;
+  color: #fff !important;
+}
+a.fifth-skill:hover{
+  background-color: #fff !important;
+  color: #8996b1 !important;
+}
+a.sixth-skill{
+  text-decoration: none;
+  color: #fff !important;
+}
+a.sixth-skill:hover{
+  background-color: #fff !important;
+  color: #8996b1 !important;
+}
 
 /* My technical skills */
 .tech-skills{
@@ -62,6 +111,10 @@ p #info{
   color: #fff;
   background-color: #8996b1;
   padding: 9px;
+}
+#mySkills{
+  padding-top: 5px;
+  padding-bottom: 8px;
 }
 /* Technical skills styling */
 #first-skill{
