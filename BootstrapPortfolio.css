@@ -154,4 +154,22 @@ a.sixth-skill:hover{
   color: #ffffff;
 }
 
+#myBtn{
+display: none;
+position: fixed;
+bottom: 20px;
+right: 30px;
+z-index: 99;
+font-size: 19px;
+border: none;
+background-color: rgba(76, 87,101,.8);
+color: white;
+cursor: auto;
+padding: 15px;
+border-radius: 4px;
+}
+
+#myBtn: hover{
+background-color: #000000;
+
 /* font awesome icon styling */
