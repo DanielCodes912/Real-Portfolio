@@ -3,101 +3,92 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title></title>
+    <title>Daniel Ajayi | Portfolio</title>
     <link rel="stylesheet" href="myPortfolio.css">
-    <!-- nav-brand font -->
     <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/cantora" type="text/css"/>
-    <!-- Link to bootstrap 5  -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <!-- font awesome cdn link -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
   </head>
   <body>
     <!-- Navigation bar -->
-    <nav class="navbar navbar-expand-lg navbar fixed-top navbar-dark">
-      <div class="container-fluid overrides">
-        <a class="navbar-brand" href="#DanielGit">Daniel Ajayi</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
-        aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#Home">Daniel Ajayi</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="#Home">Home</a>
-            <a class="nav-link" href="#About">About Me</a>
-            <a class="nav-link" href="#mySkills">My Technical Skills</a>
-            <a class="nav-link" href="#Contact">Contact</a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#Home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#About">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#mySkills">Skills</a></li>
+            <li class="nav-item"><a class="nav-link" href="#Contact">Contact</a></li>
+          </ul>
         </div>
       </div>
     </nav>
 
-<!-- the body part aspect -->
-<div class="First-Header">
-      <h1>Hello!...</h1>
-    <h1>I am Daniel Ajayi,a freelancer...</h1>
-    <h1>I am a javascript front end web developer.</h1>
-    </div>
+    <!-- Hero Section -->
+    <header class="hero">
+      <div class="container text-center">
+        <h1>Hello, I'm Daniel Ajayi</h1>
+        <p>A Freelance JavaScript Frontend Developer</p>
+      </div>
+    </header>
 
-    <!-- Second aspect of the page -->
-    <div class="myInfo">
-  <h2 id="About">About Me</h2>
-  <p id="intro">
-    I am a retail front-end web developer from Nigeria.
-   </p>
-   <ul>
-     <li>I can create website of any kind using HTML5, CSS3, javascript, Bootstrap and jQuery.</li>
-     <li>Client(s) can bring their website to me for recently trending website template update or bug fixing. </li>
-     <li>I am looking forward to creating responsive websites for prospective client</li>
-     <li>In my Free time, I like to learn new technology,create write-ups and build project, post it on Github to get feedback</li>
-   </ul>
-    </div>
+    <!-- About Section -->
+    <section id="About" class="about-section">
+      <div class="container">
+        <h2>About Me</h2>
+        <p>I am a retail front-end web developer from Nigeria.</p>
+        <ul>
+          <li>I build responsive websites using HTML, CSS, JavaScript, Bootstrap, and jQuery.</li>
+          <li>I specialize in updating website templates and fixing bugs.</li>
+          <li>I enjoy learning new technologies and sharing projects on GitHub.</li>
+        </ul>
+      </div>
+    </section>
 
-               <!-- progress bar used to rate my tech skill -->
-<div class="tech-skills">
-<h2 id="mySkills">My technical skills</h2>
-<ul>
-<button type="button"  class="btn btn-outline-secondary"><a class="first-skill" href="#"> HTML5</a></button>
-<button type="button"  class="btn btn-outline-secondary"><a class="second-skill" href="#"> CSS3</a></button>
-<button type="button"  class="btn btn-outline-secondary"><a class="third-skill" href="#"> Bootstrap</a></button>
-<button type="button"  class="btn btn-outline-secondary"><a class="fourth-skill" href="#"> Javascript</a></button>
-<button type="button"  class="btn btn-outline-secondary"><a class="fifth-skill" href="#"> jQuery</a></button>
-<button type="button"  class="btn btn-outline-secondary"><a class="sixth-skill" href="#"> Reactjs</a></button>
-</div>
+    <!-- Skills Section -->
+    <section id="mySkills" class="skills-section">
+      <div class="container text-center">
+        <h2>My Technical Skills</h2>
+        <div class="skills">
+          <button class="btn btn-outline-secondary">HTML5</button>
+          <button class="btn btn-outline-secondary">CSS3</button>
+          <button class="btn btn-outline-secondary">Bootstrap</button>
+          <button class="btn btn-outline-secondary">JavaScript</button>
+          <button class="btn btn-outline-secondary">jQuery</button>
+          <button class="btn btn-outline-secondary">React.js</button>
+        </div>
+      </div>
+    </section>
 
-<!-- contract form -->
-<!-- How to use font awesome for my contact links -->
-<div class="container">
-  <h2 id="Contact">Contact Me</h2>
-  <div class="contract-form">
-    <form action="mailto:forexdinance.com: method="get">
-    <input type="text" class="form-control" Placeholder="Name">
-    <br>
-    <input type="email" class="form-control" placeholder="name@example.com">
-    <br>
-    <textarea  class="form-control"  name="text" rows="3" cols="80" placeholder="subject"></textarea><br>
-     <button type="submit" class="btn btn-primary">Send</button>
-  </div>
-     </form>
-  </div>
+    <!-- Contact Section -->
+    <section id="Contact" class="contact-section">
+      <div class="container text-center">
+        <h2>Contact Me</h2>
+        <form action="mailto:forexdinance@gmail.com" method="post" enctype="text/plain">
+          <input type="text" class="form-control" placeholder="Name" required><br>
+          <input type="email" class="form-control" placeholder="Email" required><br>
+          <textarea class="form-control" placeholder="Message" rows="3" required></textarea><br>
+          <button type="submit" class="btn btn-primary">Send</button>
+        </form>
+      </div>
+    </section>
 
-<!-- My contactact address -->
-<!-- <div class="container">
-  <address class="footer">
-     <a href="forexdinance@gmail.com">forexdinance@gmail.com</a><br>
-          Copyright &#169; Daniel Ajayi 2022
-  </address> -->
-  <div class="footer">
-    <div class="container">
-      <address>
-        <p><a href="mailto:forexdinance@gmail.com" class="mail"><i class="fa-duotone fa-envelope-dot"></i>forexdinance@gmail</a></p>
-        <p>Copyright &#169; Daniel Ajayi 2023</p>
-      </address>
-    </div>
-</div>
-<button onclick="topFunction()" id="myBtn" title="go to top"> Back to Top</button>
-<script src="myPortfolio.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <!-- Footer -->
+    <footer class="footer text-center">
+      <div class="container">
+        <p><a href="mailto:forexdinance@gmail.com" class="mail">forexdinance@gmail.com</a></p>
+        <p>&copy; Daniel Ajayi 2025</p>
+      </div>
+    </footer>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Back to Top</button>
+
+    <script src="myPortfolio.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
+
