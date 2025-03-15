@@ -1,175 +1,72 @@
-body{
-  background-color: #fffffb !important;
+body {
+  background-color: #fffffb;
 }
 
-/* overriding navbar color */
-.navbar{
+.navbar {
   background-color: #87A2DE;
-  box-shadow: 0 2px 4px 0 rgba(91, 102, 127, .9);
+  box-shadow: 0 2px 4px rgba(91, 102, 127, 0.9);
 }
 
-/* nav-brand styling */
-.overrides .nav-brand{
-  color: #ececec !important;
-  padding: 15px !important;
-  font-family: 'CantoraOneRegular'!important;
-   font-weight: Bolder !important;
-   font-style: normal !important;
-   float: left !important;
-   width:50px !important;
-   text-transform: capitalize !important;
-}
-
-
-/* h1 one heading styling */
-.First-Header{
-  padding-top: 95px;
-  padding-bottom: 40px;
-  padding-left: 30px;
-  border-top: 0px;
-   background-color: #8996B1 !important;
+.hero {
+  padding: 100px 20px;
+  background-color: #8996B1;
   color: #ffffff;
-  padding-left: 68px;
-
-
-}
-
-/* h2 about me */
-p #info{
-  padding-left: 9px;
-}
- #About{
   text-align: center;
-  text-decoration: underline;
-  padding: 8px;
 }
 
-.myInfo{
+.about-section, .contact-section {
+  padding: 40px;
+  background-color: white;
   color: #42627b;
-   padding: 9px;
-   background-color: white;
-}
-#intro{
-  padding-left:15px;
-  font-size: 22px;
-}
-a.first-skill:hover{
-  text-decoration: none;
-  color: #8996b1 !important;
-  background-color: #fff !important;
-}
-a.first-skill{
-  text-decoration: none;
-  background-color: #8996b1 !important;
-  color: #fff !important;
-}
-a.second-skill{
-  text-decoration: none;
-  color: #fff !important;
-}
-a.second-skill:hover{
-  background-color: #fff !important;
-  color: #8996b1 !important;
-}
-a.third-skill{
-  text-decoration: none;
-  color: #fff !important;
-}
-a.third-skill:hover{
-  background-color: #fff !important;
-  color: #8996b1 !important;
-}
-a.fourth-skill{
-  text-decoration: none;
-  color: #fff !important;
-}
-a.fourth-skill:hover{
-  background-color: #fff !important;
-  color: #8996b1 !important;
-}
-a.fifth-skill{
-  text-decoration: none;
-  color: #fff !important;
-}
-a.fifth-skill:hover{
-  background-color: #fff !important;
-  color: #8996b1 !important;
-}
-a.sixth-skill{
-  text-decoration: none;
-  color: #fff !important;
-}
-a.sixth-skill:hover{
-  background-color: #fff !important;
-  color: #8996b1 !important;
 }
 
-/* My technical skills */
-.tech-skills{
+.skills-section {
   text-align: center;
-  font-size: 1.09em;
-  color: #fff;
   background-color: #8996b1;
-  padding: 9px;
-}
-#mySkills{
-  padding-top: 5px;
-  padding-bottom: 8px;
-}
-/* Technical skills styling */
-#first-skill{
-  border: 2px solid #4b6579;
-  border-radius: 50%;
-  height: 150px;
-  width: 1500px;
+  color: #fff;
+  padding: 40px;
 }
 
-/* contacts */
-#Contact{
-  text-align: center;
-  text-decoration: underline;
-  color:#42627b;
-  text-decoration-style: solid #42627b;
-  padding-bottom: 10px;
-}
-.contract-form{
-  padding-bottom: 22px;
-}
-
-/* ways of accessing me */
 .footer {
   background-color: #4b6579;
-  color: #ffffff;
-  padding-top: 30px;
+  color: white;
+  padding: 20px;
   text-align: center;
-  padding: 10px;
-  text-decoration: none;
-}
-.mail{
-  text-decoration: none;
-  color: #ffffff;
-}
-.mail:hover{
-  text-decoration: none;
-  color: #ffffff;
 }
 
-#myBtn{
-display: none;
-position: fixed;
-bottom: 20px;
-right: 30px;
-z-index: 99;
-font-size: 19px;
-border: none;
-background-color: rgba(76, 87,101,.8);
-color: white;
-cursor: auto;
-padding: 15px;
-border-radius: 4px;
+.mail {
+  text-decoration: none;
+  color: white;
 }
 
-#myBtn: hover{
-background-color: #000000;
+.mail:hover {
+  color: white;
+}
 
-/* font awesome icon styling */
+#myBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#myBtn i {
+  margin: 0;
+}
+
+#myBtn:hover {
+  background-color: #0056b3;
+  transform: scale(1.1);
+}
